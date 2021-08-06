@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>admin</class>
+ <widget class="QDialog" name="admin">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1310</width>
-    <height>780</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="welcome">
+  <widget class="QPushButton" name="add_movies_Button">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1300</width>
-     <height>771</height>
+     <x>130</x>
+     <y>80</y>
+     <width>131</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>../../../Downloads/image (1).jpg</pixmap>
+    <string>Add Moveis</string>
    </property>
   </widget>
  </widget>

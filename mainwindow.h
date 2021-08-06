@@ -13,7 +13,6 @@
 #include <QChar>
 #include<QDebug>
 #include<QRandomGenerator>
-#include "dialog.h"
 #include<QFileInfo>
 #include<QSqlQuery>
 #include<QSqlDatabase>
@@ -22,6 +21,9 @@
 #include<QMessageBox>
 #include<QSqlRecord>
 #include<QSqlQueryModel>
+#include "movie.h"
+#include "login.h"
+#include "genre.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -39,15 +41,23 @@ private slots:
     void on_pushButton_3_clicked();
     void on_pushButton_clicked();
 
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_7_clicked();
+
 private:
     Ui::MainWindow *ui;
         help *h;
-        Dialog *dialog;
         file *f;
+        movie *m;
+        login *l;
+        genre *g;
 };
 class User{
 public:
-void write_data(QString fname,QString lname,QString age,QString pw)
+void write_data(QString fname,QString lname,QString age,QString username,QString pw)
 {
     User u;
     QString encrypted;
@@ -59,12 +69,13 @@ int i ;
     QTextStream out(&File);
     QMultiHash <QString,QString>check;
      encrypted= u.encrypt(pw);
-    check.insert(fname,lname);
-    check.insert(fname,age);
-   check.insert(fname,encrypted);
+    check.insert(username,lname);
+    check.insert(username,age);
+    check.insert(username,fname);
+   check.insert(username,encrypted);
    //check.insert(fname,username);
-    out<<fname<<":";
-    QList<QString>values = check.values(fname);
+    out<<username<<":";
+    QList<QString>values = check.values(username);
     for(i=0;i<values.size();i++){
         out<<values.at(i)<<":";
     }
@@ -161,6 +172,4 @@ QString aux_password;
 
 }
 };
-
-
 #endif // MAINWINDOW_H

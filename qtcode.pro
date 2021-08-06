@@ -11,8 +11,10 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    dialog.cpp \
+    admin.cpp \
+    admin_adding.cpp \
     file.cpp \
+    genre.cpp \
     help.cpp \
     login.cpp \
     main.cpp \
@@ -20,16 +22,20 @@ SOURCES += \
     movie.cpp
 
 HEADERS += \
-    dialog.h \
+    admin.h \
+    admin_adding.h \
     file.h \
+    genre.h \
     help.h \
     login.h \
     mainwindow.h \
     movie.h
 
 FORMS += \
-    dialog.ui \
+    admin.ui \
+    admin_adding.ui \
     file.ui \
+    genre.ui \
     help.ui \
     login.ui \
     mainwindow.ui \

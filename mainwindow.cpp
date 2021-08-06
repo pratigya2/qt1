@@ -1,4 +1,4 @@
-#include "dialog.h"
+
 #include "mainwindow.h"
 #include <QDir>
 #include <QMessageBox>
@@ -10,6 +10,9 @@
 #include<QDebug>
 #include "help.h"
 #include "file.h"
+#include "movie.h"
+#include "login.h"
+#include"admin.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -33,10 +36,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 void MainWindow::on_pushButton_2_clicked()
-{
-        dialog = new Dialog(this);
-        hide();
-        dialog->show();
+{ f = new file(this);
+    hide();
+    f->show();
     }
 void MainWindow::on_pushButton_4_clicked()
 {
@@ -46,12 +48,35 @@ void MainWindow::on_pushButton_3_clicked()
 {
     h = new help(this);
     hide();
-    h->show();
+    h ->show();
 }
 
 void MainWindow::on_pushButton_clicked()
 {
-    f = new file(this);
+    m = new movie(this);
     hide();
-    f->show();
+    m->show();
+}
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    l = new login(this);
+        hide();
+        l->show();
+}
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    g = new genre(this);
+        hide();
+        g->show();
+
+}
+
+void MainWindow::on_pushButton_7_clicked()
+{
+    admin ad;
+    hide();
+    ad.exec();
+
 }

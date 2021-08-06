@@ -6,115 +6,475 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1310</width>
+    <height>780</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>30</y>
-     <width>241</width>
-     <height>221</height>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
     </rect>
    </property>
-   <property name="title">
-    <string>signup</string>
+   <property name="text">
+    <string/>
    </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="1" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Enter First Name</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Enter Last Name</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>Enter age</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
-    </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>Enter Password</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QLineEdit" name="lineEdit_4">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="echoMode">
-       <enum>QLineEdit::Password</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="label_5">
-      <property name="text">
-       <string>Confirm Password</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="1">
-     <widget class="QLineEdit" name="lineEdit_5">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="echoMode">
-       <enum>QLineEdit::Password</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="1">
-     <widget class="QPushButton" name="pushButton">
-      <property name="text">
-       <string>Register</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit_6"/>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_6">
-      <property name="text">
-       <string>username</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1">
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="text">
-       <string>Database</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>130</y>
+     <width>161</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton{
+background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/register icon.png</normaloff>../../../Downloads/register icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>111</width>
+     <height>101</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>230</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  white;
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>ENTER FIRSTNAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ }</string>
+   </property>
+   <property name="text">
+    <string> ENTER LASTNAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>350</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_4 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ }</string>
+   </property>
+   <property name="text">
+    <string>ENTER AGE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>420</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_5{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ }</string>
+   </property>
+   <property name="text">
+    <string>ENTER USERNAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>490</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_6{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ }</string>
+   </property>
+   <property name="text">
+    <string>ENTER PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>560</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Terminal</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_7 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ }</string>
+   </property>
+   <property name="text">
+    <string>CONFIRM PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>240</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>ENTER FIRSTNAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>300</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit_2{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>ENTER LASTNAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>360</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit_3{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>ENTER AGE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>430</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit_4{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>ENTER USERNAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>500</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit_5{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>ENTER PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>570</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#lineEdit_6{
+border:3px solid  rgb(0, 85, 127);
+border-radius:20px;
+text-align:center;
+color:white;
+background-color:transparent;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:focus{
+border:2px solid rgb(170, 85, 255);
+}
+</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>CONFIRM PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>630</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cooper Black</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_8 {
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 30px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color:  rgb(255, 123, 35);
+ }
+QPushButton#pushButton_8:hover{
+background-color:transparent;
+color: rgb(0, 255, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>REGISTER</string>
+   </property>
   </widget>
  </widget>
  <resources/>

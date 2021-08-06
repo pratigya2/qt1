@@ -5,6 +5,7 @@
 #include <QMessageBox>
 #include <QDebug>
 #include "movies.h"
+#include "admin.h"
 #include "mainwindow.h"
 
 login::login(QWidget *parent) :
@@ -12,6 +13,11 @@ login::login(QWidget *parent) :
     ui(new Ui::login)
 {
     ui->setupUi(this);
+    setWindowTitle("CC");
+    QPixmap pix("C:/Users/user/Downloads/image (7).png");
+    int w = ui->label->width();
+       int h =ui->label->height();
+      ui->label->setPixmap(pix.scaled(w,h));
 }
 
 login::~login()
@@ -19,12 +25,20 @@ login::~login()
     delete ui;
 }
 
-void login::on_pushButton_2_clicked()
+void login::on_pushButton_3_clicked()
 {
     int a;
     QString line = ui->lineEdit->text();
+
     QString pw = ui->lineEdit_2->text();
 
+    if(line == "pratigya007"&&pw=="pr@tigy@1"){
+        admin a;
+        a.setModal(true);
+        hide();
+        a.exec();
+    }
+    else{
     User u;
    a = u.login(line,pw);
 if(a==0){
@@ -32,22 +46,22 @@ if(a==0){
 }
 if(a==1){
     QMessageBox::information(this,"Welcome","Yes you are logged in");
-}
-//QString message;
-//message =
-}
-void login::on_pushButton_clicked()
-{
-    movie mov;
-    mov.setModal(true);
+
+//    movie mov2;
+//    mov2.setModal(true);
+//    hide();
+//    mov2.exec();
+    mov =new movie(this);
     hide();
-    mov.exec();
+    mov->show();
+    connect(this,SIGNAL(send(QString)),mov,SLOT(on_pushButton_2_clicked(QString)));
+    emit send(line);
+
+}
+    }
+//    connect(this,SIGNAL(send(QString)),mov,SLOT(on_pushButton_2_clicked(QString)));
+//    emit send(line);
+
 }
 
-
-//void login::on_pushButton_3_clicked()
-//{
-
-
-//}
 
