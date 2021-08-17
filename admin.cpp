@@ -1,12 +1,20 @@
 #include "admin.h"
 #include "ui_admin.h"
 #include"admin_adding.h"
+#include "movie.h"
+#include"users.h"
+#include "pdeletep.h"
 
 admin::admin(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::admin)
 {
     ui->setupUi(this);
+    setWindowTitle("CC");
+    QPixmap pix("C:/Users/user/Downloads/image (7).png");
+    int w = ui->label->width();
+       int h =ui->label->height();
+      ui->label->setPixmap(pix.scaled(w,h));
 }
 
 admin::~admin()
@@ -14,10 +22,32 @@ admin::~admin()
     delete ui;
 }
 
-void admin::on_add_movies_Button_clicked()
+void admin::on_pushButton_2_clicked()
 {
     admin_adding a;
     hide();
     a.exec();
+
+}
+
+void admin::on_pushButton_4_clicked()
+{
+    mov =new movie(this);
+    hide();
+    mov->show();
+}
+
+void admin::on_pushButton_5_clicked()
+{
+    users u;
+    hide();
+    u.exec();
+}
+
+void admin::on_pushButton_3_clicked()
+{
+    pdeletep pdp;
+    hide();
+    pdp.exec();
 
 }

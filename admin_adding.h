@@ -16,7 +16,9 @@ public:
     ~admin_adding();
 
 private slots:
-    void on_pushButton_clicked();
+
+
+    void on_pushButton_6_clicked();
 
 private:
     Ui::admin_adding *ui;

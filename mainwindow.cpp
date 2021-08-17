@@ -1,4 +1,4 @@
-
+#include"movielist.h"
 #include "mainwindow.h"
 #include <QDir>
 #include <QMessageBox>
@@ -13,7 +13,7 @@
 #include "movie.h"
 #include "login.h"
 #include"admin.h"
-
+#include "star.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -23,7 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
     MainWindow::showMaximized();
     ui->setupUi(this);
     setWindowTitle("CC");
-    QPixmap pix("C:/Users/user/Downloads/output-onlinejpgtools (1).jpg");
+    QPixmap pix("C:/Users/user/Documents/New folder/qtcode/edited.PNG");
     int w = ui->label->width();
        int h =ui->label->height();
       ui->label->setPixmap(pix.scaled(w,h));
@@ -80,3 +80,20 @@ void MainWindow::on_pushButton_7_clicked()
     ad.exec();
 
 }
+
+void MainWindow::on_pushButton_8_clicked()
+{
+
+    s = new star(this);
+       hide();
+       s->show();
+}
+
+void MainWindow::on_pushButton_9_clicked()
+{
+    Movielist movie_list;
+    movie_list.setModal(true);
+    hide();
+    movie_list.exec();
+}
+

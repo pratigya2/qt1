@@ -16,10 +16,17 @@ SOURCES += \
     file.cpp \
     genre.cpp \
     help.cpp \
+    language.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp \
-    movie.cpp
+    movie.cpp \
+    movielist.cpp \
+    moviemenu.cpp \
+    pdeletep.cpp \
+    star.cpp \
+    userinfo.cpp \
+    users.cpp
 
 HEADERS += \
     admin.h \
@@ -27,9 +34,16 @@ HEADERS += \
     file.h \
     genre.h \
     help.h \
+    language.h \
     login.h \
     mainwindow.h \
-    movie.h
+    movie.h \
+    movielist.h \
+    moviemenu.h \
+    pdeletep.h \
+    star.h \
+    userinfo.h \
+    users.h
 
 FORMS += \
     admin.ui \
@@ -37,9 +51,16 @@ FORMS += \
     file.ui \
     genre.ui \
     help.ui \
+    language.ui \
     login.ui \
     mainwindow.ui \
-    movie.ui
+    movie.ui \
+    movielist.ui \
+    moviemenu.ui \
+    pdeletep.ui \
+    star.ui \
+    userinfo.ui \
+    users.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

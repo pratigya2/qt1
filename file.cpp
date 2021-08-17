@@ -23,7 +23,7 @@ file::file(QWidget *parent) :
       ui->label->setPixmap(pix.scaled(w,h));
     QSqlDatabase myfile;
     myfile=QSqlDatabase::addDatabase("QSQLITE");
-    myfile.setDatabaseName("C:/Users/user/Documents/New folder/qtcode/users_info.db");
+    myfile.setDatabaseName("C:/Users/user/Documents/New folder/qtcode/movie.db");
     if(!myfile.open())
     {
         qDebug()<<("Failed to open the database");
@@ -45,27 +45,25 @@ void file::on_pushButton_8_clicked()
    QString firstname = ui->lineEdit->text();
    QString lastname = ui->lineEdit_2->text();
    QString age= ui->lineEdit_3->text();
+   QString gender = ui->gender->text();
+   QString country = ui->country->text();
    QString username = ui->lineEdit_4->text();
    QString pw = ui->lineEdit_5->text();
    QString cpw = ui->lineEdit_6->text();
    if(pw.compare(cpw,Qt::CaseSensitive)==0){
    int umer=age.toInt();
-   QSqlQuery qry;
-   qry.prepare("insert into users_info values('"+firstname+"','"+lastname+"',?,'"+username+"')");
+     QSqlQuery qry;
+   qry.prepare("insert into users_info values('"+firstname+"','"+lastname+"',?,'"+gender+"','"+country+"','"+username+"')");
    qry.addBindValue(umer);
    if(!qry.exec())
    {
        qDebug()<<"not done";
    }
-
-
-
    if(firstname.isEmpty()&&lastname.isEmpty()&&age.isEmpty()&&pw.isEmpty()){
        QMessageBox::warning(this,"EMPTY","PLEASE FILL THIS BOX");
    }
-   u.write_data(firstname,lastname,age,username,cpw);
-
    if(!firstname.isEmpty()&&!lastname.isEmpty()&&!age.isEmpty()&&!pw.isEmpty()){
+        u.write_data(firstname,lastname,age,username,cpw);
        login l;
        l.setModal(true);
        hide();

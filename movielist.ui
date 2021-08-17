@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Movielist</class>
+ <widget class="QDialog" name="Movielist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image (7).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>151</y>
+     <width>861</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView#tableView{
+background-color:transparent;
+font-size:15px;
+text-align:center;
+color:white;
+padding:50px;
+	selection-color: rgb(85, 170, 255);
+	border-top-color: rgb(255, 85, 127);
+	border-right-color: rgb(85, 170, 255);
+	border-color: rgb(85, 170, 255);
+gridline-color: rgb(170, 0, 255);
+}
+QTableView#tableView:item:active{
+background-color:yellow;
+}
+QTableView#tableView:item:visited{
+background-color:red;
+}
+QTableView#tableView:item:hover{
+background-color:green;
+}
+QTableView:ScrollBar:vertical{
+color:green;
+}
+
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

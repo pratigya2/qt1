@@ -3,6 +3,8 @@
 
 #include "movie.h"
 #include <QDialog>
+#include"userinfo.h"
+#include"moviemenu.h"
 
 namespace Ui {
 class login;
@@ -16,8 +18,10 @@ public:
     explicit login(QWidget *parent = nullptr);
     ~login();
 
+//signals:
+//     void send(QString);
 signals:
-     void send(QString);
+void send_d(QString);
 
 
 private slots:
@@ -30,6 +34,8 @@ private slots:
 private:
     Ui::login *ui;
     movie *mov;
+    moviemenu *Moviemenu;
+    userinfo *UserInfo;
 
 };
 

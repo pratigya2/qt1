@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include"admin_adding.h"
+#include "movie.h"
 
 namespace Ui {
 class admin;
@@ -17,11 +18,18 @@ public:
     ~admin();
 
 private slots:
-    void on_add_movies_Button_clicked();
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::admin *ui;
     admin_adding *add;
+    movie *mov;
 };
 
 #endif // ADMIN_H
