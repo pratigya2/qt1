@@ -4,6 +4,7 @@
 #include "genre.h"
 #include<QObject>
 #include "language.h"
+#include<QDebug>
 moviemenu::moviemenu(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::moviemenu)
@@ -50,6 +51,7 @@ void moviemenu::on_pushButton_2_clicked()
 
 void moviemenu::receive_user_info(QString username)
 {
+    qDebug()<<"abcd";
     ui->label_2->setText(username);
 }
 

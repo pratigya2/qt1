@@ -61,8 +61,8 @@
     <string>WELCOME ADMIN</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/admin.png</normaloff>../../../Downloads/admin.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/admin.png</normaloff>:/new/prefix1/admin.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -105,11 +105,11 @@ color:rgb(232, 72, 19);
 </string>
    </property>
    <property name="text">
-    <string>ADD MOVIES/SERIES</string>
+    <string>ADD MOVIES</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (9).png</normaloff>../../../Downloads/circle-cropped (9).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (9).png</normaloff>:/new/prefix1/circle-cropped (9).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -155,8 +155,8 @@ color:rgb(232, 72, 19);
     <string>DELETE MOVIES</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (10).png</normaloff>../../../Downloads/circle-cropped (10).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (10).png</normaloff>:/new/prefix1/circle-cropped (10).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -202,8 +202,8 @@ color:rgb(232, 72, 19);
     <string>VIEW MOVIES</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (11).png</normaloff>../../../Downloads/circle-cropped (11).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (11).png</normaloff>:/new/prefix1/circle-cropped (11).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -215,8 +215,8 @@ color:rgb(232, 72, 19);
   <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>280</y>
+     <x>300</x>
+     <y>510</y>
      <width>211</width>
      <height>81</height>
     </rect>
@@ -249,8 +249,149 @@ color:rgb(232, 72, 19);
     <string>VIEW USERS</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (12).png</normaloff>../../../Downloads/circle-cropped (12).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (12).png</normaloff>:/new/prefix1/circle-cropped (12).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>270</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_6{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_6:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ADD SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (9).png</normaloff>:/new/prefix1/circle-cropped (9).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>360</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_7{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_7:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (10).png</normaloff>:/new/prefix1/circle-cropped (10).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_8{
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 15px;
+	color: white;
+  margin: 4px 2px;
+  background-color: transparent; 
+  
+ }
+QPushButton#pushButton_8:hover{
+background-color:transparent;
+color:rgb(232, 72, 19);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>VIEW SERIES</string>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (11).png</normaloff>:/new/prefix1/circle-cropped (11).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -260,6 +401,8 @@ color:rgb(232, 72, 19);
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

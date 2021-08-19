@@ -79,7 +79,7 @@ QPushButton#pushButton:hover {
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../../Downloads/circle-cropped (7).png</normaloff>../../../Downloads/circle-cropped (7).png</iconset>
+     <normaloff>circle-cropped (7).png</normaloff>circle-cropped (7).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -282,8 +282,8 @@ color: rgb(252, 255, 97);
     <string>What is CC&quot;Cinephile Choose&quot;?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_7">
@@ -324,8 +324,8 @@ color: rgb(252, 255, 97);
     <string>Is this free to use?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_8">
@@ -366,8 +366,8 @@ color: rgb(252, 255, 97);
     <string>How can i access my information?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_10">
@@ -407,8 +407,8 @@ color: rgb(252, 255, 97);
     <string>How to view movies?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_11">
@@ -448,8 +448,8 @@ color: rgb(252, 255, 97);
     <string>How are movies added?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_12">
@@ -489,8 +489,8 @@ color: rgb(252, 255, 97);
     <string>What language movies and shows can be expected?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_14">
@@ -530,8 +530,8 @@ color: rgb(252, 255, 97);
     <string>Can I not use the app without logging in?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_15">
@@ -571,8 +571,8 @@ color: rgb(252, 255, 97);
     <string>Are my data being shared with other third parties?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_16">
@@ -612,8 +612,8 @@ color: rgb(252, 255, 97);
     <string>Is my password encrypted?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_17">
@@ -654,8 +654,8 @@ color: rgb(252, 255, 97);
     <string>Is there a word limit for review?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_18">
@@ -695,8 +695,8 @@ color: rgb(252, 255, 97);
     <string>How are reviews classified?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_19">
@@ -736,8 +736,8 @@ color: rgb(252, 255, 97);
     <string>Are all reviews and ratings counted?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_20">
@@ -777,11 +777,13 @@ color: rgb(252, 255, 97);
     <string>Can we rate in terms of genre too?</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (6).png</normaloff>../../../Downloads/circle-cropped (6).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (6).png</normaloff>:/new/prefix1/circle-cropped (6).png</iconset>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

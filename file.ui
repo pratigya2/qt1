@@ -47,8 +47,8 @@ background-color:transparent;
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/register icon.png</normaloff>../../../Downloads/register icon.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/register icon.png</normaloff>:/new/prefix1/register icon.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -551,7 +551,7 @@ color: rgb(0, 255, 0);
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">QLineEdit#lineEdit_8{
+    <string notr="true">QLineEdit#country{
 border:3px solid  rgb(0, 85, 127);
 border-radius:20px;
 text-align:center;
@@ -585,7 +585,7 @@ border:2px solid rgb(170, 85, 255);
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">QLineEdit#lineEdit_10{
+    <string notr="true">QLineEdit#gender{
 border:3px solid  rgb(0, 85, 127);
 border-radius:20px;
 text-align:center;
@@ -604,6 +604,8 @@ border:2px solid rgb(170, 85, 255);
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -13,7 +13,6 @@
 #include "movie.h"
 #include "login.h"
 #include"admin.h"
-#include "star.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -81,13 +80,7 @@ void MainWindow::on_pushButton_7_clicked()
 
 }
 
-void MainWindow::on_pushButton_8_clicked()
-{
 
-    s = new star(this);
-       hide();
-       s->show();
-}
 
 void MainWindow::on_pushButton_9_clicked()
 {

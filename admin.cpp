@@ -4,6 +4,8 @@
 #include "movie.h"
 #include"users.h"
 #include "pdeletep.h"
+#include"admin_series_adding.h"
+#include"series.h"
 
 admin::admin(QWidget *parent) :
     QDialog(parent),
@@ -50,4 +52,26 @@ void admin::on_pushButton_3_clicked()
     hide();
     pdp.exec();
 
+}
+
+void admin::on_pushButton_6_clicked()
+{
+    admin_series_adding ads;
+    hide();
+    ads.exec();
+}
+
+void admin::on_pushButton_7_clicked()
+{
+    pdeletep pdp;
+    hide();
+    pdp.exec();
+
+}
+
+void admin::on_pushButton_8_clicked()
+{
+    series s;
+    hide();
+    s.exec();
 }

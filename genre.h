@@ -3,6 +3,9 @@
 #include "movielist.h"
 
 #include <QDialog>
+#include<QPainter>
+#include<QStyledItemDelegate>
+#include<QByteArray>
 
 namespace Ui {
 class genre;
@@ -27,6 +30,23 @@ private slots:
 private:
     Ui::genre *ui;
     Movielist *movie_list;
+};
+class ImageDelegate: public QStyledItemDelegate{
+public:
+    using QStyledItemDelegate::QStyledItemDelegate;
+    void paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const{
+        const QByteArray & bytes = index.data().toByteArray();
+        QPixmap pixmap;
+        if(!bytes.isNull() && pixmap.loadFromData(bytes)){
+            // for BASE64 change to
+//             pixmap.loadFromData(QByteArray::fromBase64(bytes));
+            painter->drawPixmap(option.rect, pixmap.scaled(option.rect.size(),
+                                                           Qt::KeepAspectRatio,
+                                                         Qt::SmoothTransformation));
+            return;
+        }
+        return QStyledItemDelegate::paint(painter, option, index);
+    }
 };
 
 #endif // GENRE_H

@@ -24,7 +24,6 @@
 #include "movie.h"
 #include "login.h"
 #include "genre.h"
-#include "star.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -48,8 +47,6 @@ private slots:
 
     void on_pushButton_7_clicked();
 
-    void on_pushButton_8_clicked();
-
     void on_pushButton_9_clicked();
 
 private:
@@ -59,7 +56,6 @@ private:
         movie *m;
         login *l;
         genre *g;
-        star *s;
 };
 class User{
 public:

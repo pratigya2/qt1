@@ -13,6 +13,7 @@ CONFIG += c++11
 SOURCES += \
     admin.cpp \
     admin_adding.cpp \
+    admin_series_adding.cpp \
     file.cpp \
     genre.cpp \
     help.cpp \
@@ -24,13 +25,14 @@ SOURCES += \
     movielist.cpp \
     moviemenu.cpp \
     pdeletep.cpp \
-    star.cpp \
+    series.cpp \
     userinfo.cpp \
     users.cpp
 
 HEADERS += \
     admin.h \
     admin_adding.h \
+    admin_series_adding.h \
     file.h \
     genre.h \
     help.h \
@@ -41,13 +43,14 @@ HEADERS += \
     movielist.h \
     moviemenu.h \
     pdeletep.h \
-    star.h \
+    series.h \
     userinfo.h \
     users.h
 
 FORMS += \
     admin.ui \
     admin_adding.ui \
+    admin_series_adding.ui \
     file.ui \
     genre.ui \
     help.ui \
@@ -58,7 +61,7 @@ FORMS += \
     movielist.ui \
     moviemenu.ui \
     pdeletep.ui \
-    star.ui \
+    series.ui \
     userinfo.ui \
     users.ui
 
@@ -68,5 +71,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
+    icons.qrc \
     resources.qrc
 

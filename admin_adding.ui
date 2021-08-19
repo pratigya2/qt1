@@ -400,8 +400,8 @@ QPushButton#pushButton_6:hover {
     <string>CHOOSE IMAGE</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (13).png</normaloff>../../../Downloads/circle-cropped (13).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (13).png</normaloff>:/new/prefix1/circle-cropped (13).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -518,6 +518,8 @@ border-radius:10px;
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

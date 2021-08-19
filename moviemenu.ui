@@ -48,8 +48,8 @@
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (15).png</normaloff>../../../Downloads/circle-cropped (15).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (15).png</normaloff>:/new/prefix1/circle-cropped (15).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -77,8 +77,8 @@
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/movies_folder_icon_.png</normaloff>../../../Downloads/movies_folder_icon_.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/movies_folder_icon_.png</normaloff>:/new/prefix1/movies_folder_icon_.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -106,8 +106,8 @@
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/series.png</normaloff>../../../Downloads/series.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/series.png</normaloff>:/new/prefix1/series.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -151,8 +151,8 @@ color: rgb(243, 243, 0)
     <string>TOP RATED MOVIES</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
@@ -190,8 +190,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY GENRE</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_4">
@@ -229,8 +229,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY MOVIENAME</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_5">
@@ -268,8 +268,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY LANGUAGE</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_9">
@@ -307,8 +307,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY GENRE</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_10">
@@ -346,8 +346,8 @@ color: rgb(243, 243, 0)
     <string>TOP RATED SERIES</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_11">
@@ -385,8 +385,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY SERIES NAME</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_12">
@@ -424,8 +424,8 @@ color: rgb(243, 243, 0)
     <string>SEARCH BY LANGUAGE</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (16).png</normaloff>../../../Downloads/circle-cropped (16).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (16).png</normaloff>:/new/prefix1/circle-cropped (16).png</iconset>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -442,6 +442,8 @@ color: rgb(243, 243, 0)
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

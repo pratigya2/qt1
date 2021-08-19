@@ -58,7 +58,7 @@ void movie::on_pushButton_5_clicked()
 {
     a++;
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png"));
     ui->pushButton_5->setIcon(*ico);
     ui->pushButton_5->setCheckable(true);
 }
@@ -66,7 +66,7 @@ void movie::on_pushButton_6_clicked()
 {
     a++;
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png"));
     ui->pushButton_6->setIcon(*ico);
     ui->pushButton_6->setCheckable(true);
 }
@@ -75,7 +75,7 @@ void movie::on_pushButton_7_clicked()
 {
     a++;
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png"));
     ui->pushButton_7->setIcon(*ico);
     ui->pushButton_7->setCheckable(true);
 }
@@ -84,7 +84,7 @@ void movie::on_pushButton_8_clicked()
 {
     a++;
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png"));
     ui->pushButton_8->setIcon(*ico);
     ui->pushButton_8->setCheckable(true);
 }
@@ -92,14 +92,14 @@ void movie::on_pushButton_9_clicked()
 {
     a++;
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png"));
     ui->pushButton_9->setIcon(*ico);
     ui->pushButton_9->setCheckable(true);
     qInfo()<<a;
 }
 void movie::on_pushButton_clicked()
 {
-    QPixmap pix("C:/Users/user/Downloads/imgonline-com-ua-shape-EVHgZty5EasFLq.png");
+    QPixmap pix("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-WfdnljkZdE.png");
     int width  = ui->label_9->width();
        int height =ui->label_9->height();
       ui->label_9->setPixmap(pix.scaled(width,height));
@@ -252,7 +252,7 @@ void movie::on_pushButton_13_clicked()
 //         }
 //     }
     QIcon *ico = new QIcon();
-    ico->addPixmap(QPixmap("C:/Users/user/Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png"));
+    ico->addPixmap(QPixmap("C:/Users/user/Documents/New folder/qtcode/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png"));
     ui->pushButton_5->setIcon(*ico);
     ui->pushButton_5->setCheckable(true);
     ui->pushButton_6->setIcon(*ico);

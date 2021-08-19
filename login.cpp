@@ -57,13 +57,14 @@ void login::on_pushButton_3_clicked()
             mm.setModal(true);
             hide();
             mm.exec();
+            connect(this, SIGNAL(send_d(QString)), Moviemenu, SLOT(receive_user_info(QString)));
+            emit send_d(line);
+            qDebug()<<"Test1";
             //    connect(this,SIGNAL(send(QString)),mov,SLOT(on_pushButton_2_clicked(QString)));
             //    emit send(line);
 
         }
-        connect(this, SIGNAL(send_d(QString)), Moviemenu, SLOT(receive_user_info(QString)));
-        emit send_d(line);
-        qDebug()<<"Test1";
+
     }
     //    connect(this,SIGNAL(send(QString)),mov,SLOT(on_pushButton_2_clicked(QString)));
     //    emit send(line);

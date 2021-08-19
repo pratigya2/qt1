@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>admin.png</file>
+        <file>circle-cropped (9).png</file>
+        <file>circle-cropped (10).png</file>
+        <file>china.png</file>
+        <file>circle-cropped (6).png</file>
+        <file>circle-cropped (7).png</file>
+        <file>circle-cropped (8).png</file>
+        <file>circle-cropped (11).png</file>
+        <file>circle-cropped (12).png</file>
+        <file>circle-cropped (13).png</file>
+        <file>circle-cropped (15).png</file>
+        <file>circle-cropped (16).png</file>
+        <file>circle-cropped (17).png</file>
+        <file>circle-cropped (18).png</file>
+        <file>circle-cropped (19).png</file>
+        <file>circle-cropped (20).png</file>
+        <file>circle-cropped (21).png</file>
+        <file>circle-cropped (22).png</file>
+        <file>circle-cropped (23).png</file>
+        <file>imgonline-com-ua-shape-EVHgZty5EasFLq.png</file>
+        <file>imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</file>
+        <file>imgonline-com-ua-shape-WfdnljkZdE.png</file>
+        <file>movies_folder_icon_.png</file>
+        <file>nepali.jpeg</file>
+        <file>register icon.png</file>
+        <file>series.png</file>
+        <file>usa.jpeg</file>
+    </qresource>
+    <qresource lang="english" prefix="/icons"/>
+</RCC>

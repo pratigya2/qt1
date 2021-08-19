@@ -64,8 +64,8 @@ background-color:transparent;
     <string>ROMANTIC</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (17).png</normaloff>../../../Downloads/circle-cropped (17).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (17).png</normaloff>:/new/prefix1/circle-cropped (17).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -109,8 +109,8 @@ background-color:transparent;
     <string>HORROR</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (18).png</normaloff>../../../Downloads/circle-cropped (18).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (18).png</normaloff>:/new/prefix1/circle-cropped (18).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -154,8 +154,8 @@ background-color:transparent;
     <string>DRAMA</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (19).png</normaloff>../../../Downloads/circle-cropped (19).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (19).png</normaloff>:/new/prefix1/circle-cropped (19).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -199,8 +199,8 @@ background-color:transparent;
     <string>SCI-FICTION</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (20).png</normaloff>../../../Downloads/circle-cropped (20).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (20).png</normaloff>:/new/prefix1/circle-cropped (20).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -244,8 +244,8 @@ background-color:transparent;
     <string>COMEDY</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (21).png</normaloff>../../../Downloads/circle-cropped (21).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (21).png</normaloff>:/new/prefix1/circle-cropped (21).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -289,8 +289,8 @@ background-color:transparent;
     <string>ACTION</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (22).png</normaloff>../../../Downloads/circle-cropped (22).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (22).png</normaloff>:/new/prefix1/circle-cropped (22).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -302,10 +302,10 @@ background-color:transparent;
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>160</y>
-     <width>591</width>
-     <height>491</height>
+     <x>360</x>
+     <y>150</y>
+     <width>621</width>
+     <height>501</height>
     </rect>
    </property>
    <property name="font">
@@ -364,6 +364,8 @@ color:green;
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

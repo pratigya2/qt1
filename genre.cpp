@@ -9,6 +9,7 @@
 #include<QMessageBox>
 #include<QBuffer>
 #include<QFileDialog>
+#include<QPixmap>
 
 genre::genre(QWidget *parent) :
     QDialog(parent),
@@ -65,6 +66,18 @@ void genre::on_action_clicked()
        modal->setQuery(qry);
        ui->tableView->setModel(modal);
        ui->tableView->resizeColumnsToContents();
+       ui->tableView->setItemDelegateForColumn(6,new ImageDelegate);
+    ui->tableView->resizeColumnsToContents();
+    ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tableView->horizontalHeader()->setStretchLastSection(true);
+    ui->tableView->verticalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+    ui->tableView->verticalHeader()->setStretchLastSection(true);
+
+
+
+
+
+
      }
 }
 

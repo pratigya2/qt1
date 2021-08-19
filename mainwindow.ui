@@ -265,19 +265,6 @@ color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.079545
      <string>ADMIN</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>60</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>star</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>

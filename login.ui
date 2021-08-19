@@ -186,8 +186,8 @@ background-color:transparent;
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (8).png</normaloff>../../../Downloads/circle-cropped (8).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (8).png</normaloff>:/new/prefix1/circle-cropped (8).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -197,6 +197,8 @@ background-color:transparent;
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

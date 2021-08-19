@@ -72,7 +72,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit#lineEdit{
-text-allign:center;
+text-align:center;
 background-color:transparent;
 color:white;
 border:none;
@@ -109,7 +109,7 @@ color: rgb(0, 255, 0);
 </string>
    </property>
    <property name="text">
-    <string>OK</string>
+    <string>MOVIES</string>
    </property>
   </widget>
   <widget class="QLabel" name="image">
@@ -128,9 +128,9 @@ color: rgb(0, 255, 0);
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>590</x>
+     <x>500</x>
      <y>60</y>
-     <width>241</width>
+     <width>400</width>
      <height>51</height>
     </rect>
    </property>
@@ -147,6 +147,7 @@ color: rgb(0, 255, 0);
 background-color:transparent;
 font-size:20px;
 color:white;
+text-align:left;
 }</string>
    </property>
    <property name="text">
@@ -300,7 +301,7 @@ color:white;
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit#username_for_review{
-text-allign:center;
+text-align:center;
 background-color:transparent;
 color:white;
 border:none;
@@ -347,12 +348,11 @@ border-bottom:2px solid  rgb(222, 222, 222);
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit#add_review{
-text-allign:center;
+text-align:center;
 background-color:transparent;
 color:white;
 border:none;
 border-bottom:2px solid  rgb(222, 222, 222);
-word-wrap:true;
 }</string>
    </property>
    <property name="placeholderText">
@@ -380,8 +380,8 @@ background-color:rgb(255, 255, 127);
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -414,8 +414,8 @@ background-color:rgb(255, 255, 127);
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -448,8 +448,8 @@ background-color:rgb(255, 255, 127);
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -482,8 +482,8 @@ background-color:rgb(255, 255, 127);
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -516,8 +516,8 @@ background-color:rgb(255, 255, 127);
     <string/>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>../../../Downloads/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</normaloff>:/new/prefix1/imgonline-com-ua-shape-N6h4pB3vkwR9zPY.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -591,8 +591,8 @@ color: rgb(0, 255, 0);
     <string>SUBMIT</string>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>../../../Downloads/circle-cropped (23).png</normaloff>../../../Downloads/circle-cropped (23).png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/prefix1/circle-cropped (23).png</normaloff>:/new/prefix1/circle-cropped (23).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -787,6 +787,8 @@ background-color:yellow;
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
